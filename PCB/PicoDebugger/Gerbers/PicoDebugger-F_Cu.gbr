@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.5-0*%
-%TF.CreationDate,2023-11-23T17:12:17+00:00*%
-%TF.ProjectId,PicoprobeTester,5069636f-7072-46f6-9265-546573746572,rev?*%
+%TF.CreationDate,2023-11-25T09:06:25+00:00*%
+%TF.ProjectId,PicoDebugger,5069636f-4465-4627-9567-6765722e6b69,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.5-0) date 2023-11-23 17:12:17*
+G04 Created by KiCad (PCBNEW 7.0.5-0) date 2023-11-25 09:06:25*
 %MOMM*%
 %LPD*%
 G01*
@@ -691,7 +691,7 @@ D11*
 X79400000Y-72960000D03*
 D10*
 %TO.P,PicoProbe1,41,SWCLK*%
-%TO.N,/SWCLK*%
+%TO.N,unconnected-(PicoProbe1-SWCLK-Pad41)*%
 X67070000Y-120990000D03*
 D13*
 X67070000Y-121890000D03*
@@ -703,7 +703,7 @@ D13*
 X69610000Y-121890000D03*
 D10*
 %TO.P,PicoProbe1,43,SWDIO*%
-%TO.N,/SWDIO*%
+%TO.N,unconnected-(PicoProbe1-SWDIO-Pad43)*%
 X72150000Y-120990000D03*
 D13*
 X72150000Y-121890000D03*

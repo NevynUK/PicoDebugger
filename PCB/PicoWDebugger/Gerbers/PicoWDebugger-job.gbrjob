@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.5-0"
     },
-    "CreationDate": "2023-11-23T17:12:17+00:00"
+    "CreationDate": "2023-11-25T09:03:29+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PicoprobeTester",
-      "GUID": "5069636f-7072-46f6-9265-546573746572",
+      "Name": "PicoWDebugger",
+      "GUID": "5069636f-5744-4656-9275-676765722e6b",
       "Revision": "rev?"
     },
     "Size": {
@@ -34,37 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "PicoprobeTester-F_Cu.gbr",
+      "Path": "PicoWDebugger-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoprobeTester-B_Cu.gbr",
+      "Path": "PicoWDebugger-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoprobeTester-F_Silkscreen.gbr",
+      "Path": "PicoWDebugger-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoprobeTester-B_Silkscreen.gbr",
+      "Path": "PicoWDebugger-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PicoprobeTester-F_Mask.gbr",
+      "Path": "PicoWDebugger-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PicoprobeTester-B_Mask.gbr",
+      "Path": "PicoWDebugger-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PicoprobeTester-Edge_Cuts.gbr",
+      "Path": "PicoWDebugger-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

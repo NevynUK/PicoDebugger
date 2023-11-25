@@ -915,8 +915,10 @@
   (no_connect (at 87.63 54.61) (uuid 31670b79-df83-4902-950d-80f79f58c02d))
   (no_connect (at 87.63 80.01) (uuid 35905d1d-e94d-4fdd-bdbe-679589e93bb0))
   (no_connect (at 87.63 62.23) (uuid 3a9a1688-3ab6-44b1-93a7-984ca7fe6604))
+  (no_connect (at 67.31 95.25) (uuid 3d057aff-5385-46b9-b949-7fb89f47980d))
   (no_connect (at 87.63 87.63) (uuid 4120375b-987e-4e59-bfc6-f3d404c55333))
   (no_connect (at 52.07 74.93) (uuid 4ba0e0be-baa2-41d0-b00f-2549aa6486a9))
+  (no_connect (at 72.39 95.25) (uuid 505b8217-6b5f-4b7d-bcb7-537c85112451))
   (no_connect (at 52.07 69.85) (uuid 5c3807cc-09ca-43b2-997b-5c8d6c327677))
   (no_connect (at 52.07 80.01) (uuid 63f3e1db-be3f-44eb-adc0-07e9f4afea32))
   (no_connect (at 52.07 77.47) (uuid 6d614841-754c-451a-b2bd-24afd178f6a5))
@@ -1077,10 +1079,6 @@
   (label "TT_Run" (at 162.56 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 554ef566-6a30-401b-a62b-ba7814a3b8e0)
-  )
-  (label "SWDIO" (at 72.39 95.25 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5b3d375a-d4af-4bd4-bd72-47c962e74807)
   )
   (label "TT_UART_Rx" (at 198.12 46.99 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1274,10 +1272,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d23e2c4a-0d0e-4106-9f4f-d5c53d805092)
   )
-  (label "SWCLK" (at 67.31 95.25 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid d2700041-d694-430a-882a-aa802f713c0e)
-  )
   (label "TT_UART_Tx" (at 127 43.18 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d38194e3-2862-4285-aa33-5f493a505859)
@@ -1389,7 +1383,7 @@
     (pin "1" (uuid c28fa6b4-bed5-4315-8e8a-fb90bfb82dda))
     (pin "2" (uuid 546b8ee1-0ccd-44ad-9c85-46e650718079))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "SW2") (unit 1)
         )
@@ -1453,7 +1447,7 @@
     (pin "8" (uuid e5e66797-e0e4-4f24-a4fe-3028aac1b917))
     (pin "9" (uuid a7fec516-9613-4ee0-b5ec-45b6e6c1e41e))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "J1") (unit 1)
         )
@@ -1477,7 +1471,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "H4") (unit 1)
         )
@@ -1494,7 +1488,7 @@
     (property "Value" "Pico" (at 144.78 39.235 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (at 144.78 67.31 90)
+    (property "Footprint" "MCU_RaspberryPi_and_Boards:RPi_Pico_W_SMD_TH" (at 144.78 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.78 67.31 0)
@@ -1544,7 +1538,7 @@
     (pin "8" (uuid 61bffabe-e350-42dc-8c92-9045390a362a))
     (pin "9" (uuid 3c16f328-03ef-4c9e-a4e8-d0bcd1f79276))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "Target1") (unit 1)
         )
@@ -1571,7 +1565,7 @@
     (pin "2" (uuid cddc6544-dc0c-4b71-8e8e-163283cef9c8))
     (pin "3" (uuid fd60206b-916e-4519-82a2-e83ffaa5612a))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "J2") (unit 1)
         )
@@ -1596,7 +1590,7 @@
     )
     (pin "1" (uuid 66d4ea5f-b6e9-4476-b922-5dda7d028713))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "#FLG01") (unit 1)
         )
@@ -1663,7 +1657,7 @@
     (pin "8" (uuid ecde2239-f353-4b21-9fab-dbf21da1f4dc))
     (pin "9" (uuid 0263c170-a914-4e02-9672-234bdb0df454))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "PicoProbe1") (unit 1)
         )
@@ -1688,7 +1682,7 @@
     )
     (pin "1" (uuid 5fb2280b-37a7-4977-ba3d-203bd3276c53))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "#PWR01") (unit 1)
         )
@@ -1712,7 +1706,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "H3") (unit 1)
         )
@@ -1740,7 +1734,7 @@
     (pin "3" (uuid 70109ee4-360c-479a-8478-abb930171ed3))
     (pin "4" (uuid 8925c39e-4694-4afe-96fe-b243265423f8))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "SW1") (unit 1)
         )
@@ -1765,7 +1759,7 @@
     )
     (pin "1" (uuid a9528ebd-f3b7-49b0-bc2c-4afcd1f7dec2))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "#FLG02") (unit 1)
         )
@@ -1790,7 +1784,7 @@
     )
     (pin "1" (uuid 357b38f5-b247-428c-b6c6-62ce831634d0))
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "#PWR02") (unit 1)
         )
@@ -1814,7 +1808,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "H2") (unit 1)
         )
@@ -1838,7 +1832,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PicoprobeTester"
+      (project "PicoWDebugger"
         (path "/32bb4d5c-5047-40f3-b26d-b1a75322ad60"
           (reference "H1") (unit 1)
         )
